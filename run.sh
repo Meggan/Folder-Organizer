@@ -4,8 +4,9 @@
 # Loop through all folders in the directory 
 # In each folder
 # Create two folders : AR & RA
-# AR : Has a folder named after the parent folder (ex. 20030106)
-# RA : Has 3 subfolders : Ontario, West, Atlanta
+# RA : Has a folder named after the parent folder (ex. 20030106) and 3 sub folders:
+# Ontario, West, Atlanta
+# AR : Has 3 subfolders : Ontario, West, Atlanta
 
 for d in *; do
  cd $d
